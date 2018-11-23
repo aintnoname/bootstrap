@@ -1,0 +1,100 @@
+.jumbotron {
+    text-align: center;
+	background-image:url("../images/hero-image.jpg");
+	color:#fff;
+}
+
+.btn-lg {
+	font-size: 36px;
+}
+footer {
+	background-color:#F74C3C;
+	padding-top:15px;
+	
+}
+#get-involved {
+	background-color:#F5F5F5;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', serif;
+}
+ul.nav {
+	font-size:13px;
+}	
+
+.jumbotron h1{
+	margin-top: 50px;
+	margin-bottom:30px;
+}
+
+.jumbotron p {
+	margin-bottom:30px;
+	padding:0 50px;
+}
+.homepage{
+	text-align:center;
+	padding:30px 0;
+}
+
+.homepage h2, .homepage h3{
+	font-family:'Arvo', courier, serif;
+	color:#E74C3C;
+	text-transform:uppercase;
+	
+}
+
+.homepage hr{
+	border: 1px solid #E74C3C;
+	width:200px;
+}
+
+.homepage p {
+	font-size:20px;
+	padding:0 15px 30px 15px;
+}
+
+.homepage a {
+	color:#E74C3C;
+}
+
+.homepage a:hover {
+	text-decoration:none;
+	color:#E74C3C;
+}
+
+@media (max-width:1199px) {
+	.jumbotron h1 {
+		font-size:44px;
+	}
+	.btn-lg{
+		font-size:28px;
+	}
+@media (max-width:991px){
+	.jumbotron h1 {
+		font-size:40px;
+	}
+	.jumbotron p {
+		font-size:18px;
+	}
+	.homepage p {
+		font-size: 18px;
+		padding: 0 130px 30px 130px;
+	}
+	.btn-lg{
+		font-size:23px;
+	}
+}	
+@media (max-width:767px){
+	.jumbotron h1{
+		font-size:24px;
+	}
+	.jumbotron p {
+		font-size:16px;
+		padding:0;
+	}
+	.btn-lg{
+		font-size:18px;
+	}
+	
+}
